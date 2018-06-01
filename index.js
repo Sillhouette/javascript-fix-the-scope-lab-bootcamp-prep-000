@@ -28,9 +28,9 @@ function add2(n) {
 **/
 var funkyFunction = function() {
   return function() {
-    return "FUNKY!"
+    return "FUNKY!";
   }
 }
 
 /** theFunk is declared and assigned to the function call of the function within funkyFunction **/
-var theFunk = funkyFunction()()
+var theFunk = funkyFunction()();
