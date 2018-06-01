@@ -9,10 +9,9 @@ function myAnimal() {
 }
 
 /**
- *  yourAnimal changes the local version of animal and sets it to "cat" then returns it
+ *  yourAnimal changes the local version of animal to "cat" then returns it, leaving the global animal alone
  **/
 function yourAnimal() {
-  //animal = 'cat'
   return animal = 'cat';
 }
 
